@@ -19,7 +19,7 @@ let main() =
         num1<-double num
         if i-start+1=k  then
             if tmp=((num1)*(num1)) then
-                printfn "Aniket Dash %d"(i-k+1)
+                printfn "Aniket Dash %d %d"(i-k+1) Environment.ProcessorCount
             sum <-sum-(start*start)
             start <- start+1
        
